@@ -1,0 +1,51 @@
+.Register-container{
+    margin: 4rem 6rem;
+    color: #2a2a2a
+}
+
+.Register-container form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin:auto;
+}
+
+.Register-container input{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    border: 1px solid #2a2a2a;
+}
+
+.Register-container button{
+    display: inline;
+    background: #c6c4c4;
+    padding: .5rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #222;
+    transition: 0.3s ease;
+}
+
+.Register-container button:hover{
+    background-color: #2a2a2a;
+    color: #fff;
+    border-radius: 4px;
+    transition:  0.3s ease;
+}
+
+
+@media screen and (max-width: 850px) {
+    .Register-container{
+        margin: 8rem 2rem;
+    }
+    .Register-container form{
+        padding-top: 2rem;
+        width: 90%;
+    }
+    
+}
